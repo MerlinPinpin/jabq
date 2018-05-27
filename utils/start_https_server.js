@@ -1,7 +1,7 @@
 var https = require('https');
 var fs = require('fs');
 var port = 8000;
-var hostname = 'www.jab.com'
+var hostname = 'www.jab.com';
 
 var options = {
   key: fs.readFileSync('../certs/www.jab.com.key'),
